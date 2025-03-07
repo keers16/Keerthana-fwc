@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{graphicx,amsmath} % Required for inserting images
+
+
+
+\begin{document}
+
+
+
+\subsubsection{\textit{Determinant of a matrix of order one}}
+Let \begin{math}
+    A=[A]
+    \end{math}
+be the matrix of order 1, then determinant of A is defined to be equal to a.
+    
+\subsubsection{\textit{Determinant of a matrix of order two}}
+Let 
+\begin{math}A=
+\begin{bmatrix}a_1{}_1 & a_1{}_2\\
+a_{21} & a_{22}
+\end{bmatrix}
+\end{math} be a matrix of order 
+\begin{math}
+2\times2\    
+\end{math},
+\newline
+\newline
+then the determinant of A is defined as:
+\newline
+\newline
+det 
+\begin{math}(A)=|A|=\triangle=
+\begin{vmatrix}
+a_1{}_1 & a_1{}_2
+\\
+a_{21} & a_{21}
+\end{vmatrix}
+=a_1{}_1a_2{}_2-a_{21}-a_{12}
+\end{math}
+\newline
+\newline
+\textbf{Example 1}
+Evaluate
+\begin{math}
+\begin{vmatrix}
+2 & 4\\
+-1 & 2
+\end{vmatrix}.
+\end{math}
+\newline
+\newline
+\textbf{Solution} We have
+\begin{math}
+\begin{vmatrix}
+2 & 4\\
+-1 & 2
+\end{vmatrix}
+=2(2)-4(-1)=4+4=8.
+\end{math}
+\newline
+\newline
+\textbf{Example 2}
+Evaluate 
+\begin{math}
+\begin{vmatrix}
+x & x+1\\
+x-1 & x
+\end{vmatrix}
+\end{math}
+\newline
+\newline
+\textbf{Solution} We have
+\newline
+\newline
+\begin{math}
+\begin{vmatrix}
+x & x+1\\
+x-1 & x
+\end{vmatrix}
+=x(x)-(x+1)(x-1)=x^2-(x^2-1)=x^2-x^2+1
+\end{math}
+
+\subsubsection{\textit{Determinant of a matrix of order $3\times3$}}
+Determinant of a matrix of order three can be determined by expressing it in terms of second order determinants. This is known as expansion of a determinant along a row(or a column). There are six ways of expanding a determinant of order $3$ corresponding to each of three rows$(R_1, R_2 and R_3)$ and three columns$(C_1, C_2 and C_3)$ giving the same values as shown below.
+\newline
+\hspace{2cm}Consider the determinant of square matrix $A=[a_{ij}]_{3\times3}$
+\newline
+\newline
+i.e.,\hspace{8cm}
+\begin{math}
+\begin{vmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{vmatrix}
+\end{math}
+
+
+\end{document}
+
